@@ -1,21 +1,21 @@
 @import "nullstyle.scss";
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300&display=swap');
 
-.about {
+body{
+    font-family: Lato;
+}
 
+.about {
     &__body {
-        max-width: 832px;
+        max-width: 823px;
         margin: 0 auto;
     }
-
     &__header {
         margin-bottom: 65px;
     }
-
     &__title {
         margin-bottom: 30px;
     }
-
     &__text {
         max-width: 688px;
         color: #868585;
@@ -23,21 +23,19 @@
         font-weight: 300;
         text-align: center;
         line-height: 25.89px;
-        margin: 0 auto;
+        margin: 0px auto;
     }
-
     &__row {
         display: flex;
-        font-size: 0;
+
         margin: 0 -15px ;
-
     }
-
     &__column {
         padding: 0 15px;
-        flex: 0 0 33.33%;
+        flex: 0 0 33.333%;
     }
 }
+
 .title {
     font-size: 34px;
     font-weight: 700;
@@ -62,6 +60,7 @@
 .item-about {
 
     &__icon {
+        margin: 0 auto;
         border-radius: 50%;
         width: 92px;
         height: 92px;
@@ -74,8 +73,18 @@
     }
 
     &__title {
+        text-align: center;
+        color: #000;
+        font-size: 22px;
+        text-transform: uppercase;
+        letter-spacing: 3.52px;
+        margin-bottom: 35px;
     }
 
     &__text {
+        text-align: center;
+        color: #868585;
+        font-size: 14px;
+        line-height: 25.89px;
     }
 }
